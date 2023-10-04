@@ -2,26 +2,47 @@
 /* couleur de fond accueil = #b1cef3 */
 /* couleur des boutons = #72a3e8/#3d67d3 */
 
-body {
-    margin: 0;
-}
+
 
 header {
-    height: 60px;
+    height: 75px;
     background-color: #5182e0;
+    position: sticky;
 }
 
 .portfolio-header {
     display: flex;
     align-items: center;
+
 }
 
 .portfolio-header img {
-    width: 3%;
+    width: 5%;
     border-radius: 50%;
     margin: 8.5px;
 }
 
 header a {
     text-decoration: none;
+}
+
+img {
+    width: 20%;
+}
+
+
+/* Général */
+body {
+    margin: 0;
+    background-color: #fafafa;
+}
+
+/* Home */
+#home {
+    background-color: #ede9fe;
+    height:max-content;
+}
+
+#home h1 {
+    margin: 0;
 }
