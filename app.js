@@ -23,5 +23,5 @@ const closeModal = function (e) {
 }
 
 document.querySelectorAll('.js-modal').forEach(a => {
-    addEventListener('click', openModal)
+    a.addEventListener('click', openModal)
 });
