@@ -1,9 +1,13 @@
 /* couleur nav = #5182e0 */
 /* couleur de fond accueil = #b1cef3 */
 /* couleur des boutons = #72a3e8/#3d67d3 */
+
+/* #be97c6 */
 body, html {
     margin: 0;
     padding: 0;
+    background-color: #fafafa;
+    font-family: "Roboto";
 }
 
 * {
@@ -12,7 +16,7 @@ body, html {
 
 header {
     height: 75px;
-    background-color: #5182e0;
+    background-color:#8c5c94;
     position: fixed;
     top: 0;
     right:0;
@@ -20,9 +24,16 @@ header {
     left: 0;
 }
 
+header > a {
+    display: flex;
+    align-items: center;
+}
+
 .portfolio-header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    font-family: "Anton";
 }
 
 .portfolio-header img {
@@ -31,24 +42,22 @@ header {
     margin: 8.5px;
 }
 
-header a {
+.portfolio-header a {
     text-decoration: none;
+    color: #f6f0f7;
 }
 
-/* img {
-    width: 20%;
-} */
+nav {
+    margin: 15px;
+}
 
-
-/* Général */
-body {
-    margin: 0;
-    background-color: #fafafa;
+nav a {
+    padding: 0 8px;
 }
 
 /* Home */
 #home {
-    background-color: #ede9fe;
+    background-color:  #efe3f1;
     height: max-content;
     padding: 75px;
     height: 815px;
@@ -129,7 +138,6 @@ body {
 }
 
 /* Contacts */
-
 #contacts {
     background-color: #928291;
 }
@@ -145,7 +153,7 @@ body {
 
 /* FOOTER */
 footer {
-    background-color: #5182e0;
+    background-color: #8c5c94;
 }
 
 .footer {
@@ -160,7 +168,7 @@ footer {
 
 .portfolio-droits {
     text-align: center;
-    color: #672112;
+    color: #f6f0f7;
     display: flex;
     flex-direction: column;
 }
